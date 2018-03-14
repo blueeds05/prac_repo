@@ -1,0 +1,89 @@
+html body{
+	margin: 0;
+	background-color: #2e2e2e;
+}
+.headTitle{
+	text-align: center;
+	background: #aa3f1f; /*#fe1578;*/
+	font-size: 4em;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color:#fefe78;
+}
+.headBackGnd{
+	background: #aa3f1f;
+}
+.h2Head{
+	margin: 0;
+	padding: 10px;
+	font-size: .5em;
+}
+.rndSqr{ /*important to make the squares*/
+	float: left;
+	width: 30%;
+	padding-bottom: 30%; /*arranges the squares*/
+	margin: 1.66%; /*center the squares in the element box*/
+	background-color: #be15f8; /*#dec579;*/
+	border-radius: 20px;
+
+}
+.content{ /*important to align the squares and in middle*/
+	/*text-align: center;*/
+    margin: 0 auto;
+    max-width: 600px;
+}
+.hideMe{
+	opacity: 0;
+}
+.navDim{
+	margin: 0 auto;
+	max-width: 600px;
+
+}
+.navBarHeader{
+    background-color: #aeaeae;
+    text-align: center;
+    height: 40px;
+    color: #252525;
+    margin-bottom: 20px;
+
+}
+
+.navBar-navLeft{
+	float: left;
+	width: 30%;
+	margin: 1.66%;
+	text-align: left;
+	
+}
+.navBar-navMid{
+	float: left;
+	width: 30%;
+	margin: 1.66%;
+	
+}
+.navBar-navRight{
+	float: left;
+	width: 30%;
+	margin: 1.66%;
+	text-align: right;
+}
+.navBar-navLeft:hover{
+	color:  #ffffff;
+	/*font-weight: bold;*/
+	cursor: pointer;
+}
+.navBar-navMid:hover{
+	color:  #ffffff;
+	/*font-weight: bold;*/
+	cursor: pointer;
+
+}
+.navB span:hover{
+	color: #ffffff;
+	/*font-weight: bold;*/
+	cursor: pointer;
+}
+
+.rndSqr:hover{
+	cursor: pointer;
+}
